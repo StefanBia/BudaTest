@@ -15,7 +15,7 @@ class App extends Component {
           PENIS B==D
         </h1>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get fuck started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );
