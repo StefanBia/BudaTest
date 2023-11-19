@@ -23,7 +23,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <h1>
-          PENIS B{penisLen(20)}D
+          PENIS B{penisLen(20)}D :::
         </h1>
 
         <p className="App-intro">
