@@ -2,7 +2,16 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function penisLen(len){
+  let s ='';
+  for(let i=0; i<len; i++)
+    s+='=';
+  return s;
+}
+
 class App extends Component {
+
+  
 
   render() {
     return (
@@ -12,7 +21,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <h1>
-          PENIS B==D
+          PENIS B{penisLen(7)}D
         </h1>
         <p className="App-intro">
           To get fuck started, edit <code>src/App.js</code> and save to reload.
